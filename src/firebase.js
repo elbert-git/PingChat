@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import {getAuth, GoogleAuthProvider, signOut, signInWithPopup} from 'firebase/auth';
+import {getFirestore, collection, onSnapshot, query, orderBy} from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -45,3 +46,17 @@ export function firebaseLogOut(){
 		console.log(error);
 	})
 }
+
+
+
+
+
+
+// firebase Firestor
+const db = getFirestore();
+
+// get collection reference
+export const chatCollection = collection(db, 'ChatData');
+exprot 
+
+

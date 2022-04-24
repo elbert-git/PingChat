@@ -3,9 +3,9 @@ import MainRoot from './MainRoot';
  
 function App() {
 	return (
-		<div className="App">
+		<div className="App div--fillScreenHeight debug--red">
 			<AuthProvider>
-				<MainRoot className="div--mainroot"/>
+				<MainRoot/>
 			</AuthProvider>
 		</div>
 	);

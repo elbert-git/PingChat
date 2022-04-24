@@ -1,18 +1,47 @@
+/*flex stuff*/
 .div--flexSpreadHorizontal {
 	display: flex;
 	justify-content: space-between;
 }
- 
 .div--flexCentreColumn{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 }
+.div--flexColumn {
+	display: flex;
+	flex-direction: column;
+}
+.div--flex {
+	display: flex;
+}
+.div--flexGrow{
+	flex-grow: 1;
+}
  
+/*expanding divs*/
 .div--fillWidth {
 	width: 100%;
 }
 .div--fillHeight {
 	height: 100%;
 }
+.div--fillScreenHeight {
+	height: 100vh;
+}
+.div--fillScreenWidth {
+	width: 100vh;
+}
+
+
+
+
+
+
+/*debug*/
+.debug--red{
+	outline: solid rgba(255, 0, 0, 0.5) 3px;
+}
+
+

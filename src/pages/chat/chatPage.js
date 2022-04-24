@@ -1,7 +1,11 @@
+import SendInput from './sendInput';
+import MessageLog from './messageLog';
+ 
 export default function ChatPage(){
 	return(
-		<div>
-			<h1>Hello World</h1>
+		<div className="debug--red div--flexGrow div--flexColumn">
+			<MessageLog/>
+			<SendInput/>
 		</div>
 	)
 }

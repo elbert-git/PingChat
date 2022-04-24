@@ -30,7 +30,7 @@ export default function Router (prop) {
 				<Route path="/" element={<HomePage/>}/>
 				 
 				{/*user links*/}
-				<Route path="/chat" element={OnlyUser(<ChatPage/>)}/>
+				<Route  path="/chat" element={OnlyUser(<ChatPage/>)}/>
 			</Routes>
 		</BrowserRouter>
 	)
