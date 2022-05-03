@@ -30,11 +30,30 @@ if possible ping where you click and the globe
 - [X] update schemas in notes
 - [X] update schemas in firebase cosole
 - [X] fix auth and used on auth changed
-- [ ] create main chat page
-	- [ ] wireframe
-	- [ ] front end
-	- [ ] database setup in this app
-	- [ ] back end scripts
+- [X] create main chat page
+	- [X] wireframe
+	- [X] front end
+
+	- [X] database setup in this app
+		- [X] find out where you left off...
+		- [X] get simple read down and on snapshot
+	- [X] back end scripts
+- [X] send Messages stuff
+	- [X] send message function;
+- [ ] create homepage
+	- [ ] layout
+	- [ ] text
+	- [ ] 
+- [ ] style everything
+
+
+
+
+
+
+
+# Later to do list
+- [ ] fix the image url Problem
 
 
 # Data shemas
@@ -62,4 +81,12 @@ if possible ping where you click and the globe
 # Stretch goals
 - cool ass animaionts with that react-animation module
 
+# hompage text
+Ping
+A global communication tool.
+"world logo"
+
+Ping chat is a global chat group; Where everyone can communicate with everyone. 
+Created with reactJS on the front-end and powered by firebase on the back-end. It's my exercise in creating a full-stack web-application.
+See more of my works at www.elbertwithane.com
 

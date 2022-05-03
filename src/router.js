@@ -14,7 +14,7 @@ import UnauthorizedPage from './pages/UnauthorizedPage';
 
 export default function Router (prop) {
 	// get auth
-	const user = useAuth();
+	const [user, setUser] = useAuth();
 	 
 	//if user log in return element. else return unauthorized
 	function OnlyUser(element){

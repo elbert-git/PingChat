@@ -1,4 +1,5 @@
 export default function Message(prop){
+	console.log(prop.imageUrl);
 	return(
 		<div className="debug--red div--flex">
 			<div>{prop.senderName}</div>

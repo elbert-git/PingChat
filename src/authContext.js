@@ -9,7 +9,7 @@ export function useAuth(){
 }
 
 export default function AuthProvider ({children}) {
-	const [user, setUser] = useState({});
+	const [user, setUser] = useState(null);
 	 
 	// put context handling code here
 	return (
