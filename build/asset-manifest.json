@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PingChat/static/css/main.b260efa1.css",
+    "main.js": "/PingChat/static/js/main.bc43a36d.js",
+    "static/media/Earth.glb": "/PingChat/static/media/Earth.27561ecba8d58554eeb7.glb",
+    "index.html": "/PingChat/index.html",
+    "main.b260efa1.css.map": "/PingChat/static/css/main.b260efa1.css.map",
+    "main.bc43a36d.js.map": "/PingChat/static/js/main.bc43a36d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b260efa1.css",
+    "static/js/main.bc43a36d.js"
+  ]
+}
