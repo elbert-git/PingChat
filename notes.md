@@ -40,11 +40,10 @@ if possible ping where you click and the globe
 	- [X] back end scripts
 - [X] send Messages stuff
 	- [X] send message function;
-- [ ] create homepage
-	- [ ] layout
-	- [ ] text
-	- [ ] 
-- [ ] style everything
+- [X] create homepage
+	- [X] layout
+	- [X] text
+- [X] style everything
 
 
 
@@ -52,8 +51,6 @@ if possible ping where you click and the globe
 
 
 
-# Later to do list
-- [ ] fix the image url Problem
 
 
 # Data shemas
