@@ -8,7 +8,7 @@ export default function Header(){
 	return(
 		<div className="div--flexSpreadHorizontal div--padding">
 			<div className="div--mainLogo">
-				<span>0809</span>
+				<span>0930</span>
 			</div>
 			 
 			<AccountBadge/>
