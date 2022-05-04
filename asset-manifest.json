@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.b260efa1.css",
-    "main.js": "./static/js/main.2f71a26a.js",
-    "index.html": "./index.html",
-    "main.b260efa1.css.map": "./static/css/main.b260efa1.css.map",
-    "main.2f71a26a.js.map": "./static/js/main.2f71a26a.js.map"
+    "main.css": "/PingChat/static/css/main.b260efa1.css",
+    "main.js": "/PingChat/static/js/main.2f71a26a.js",
+    "index.html": "/PingChat/index.html",
+    "main.b260efa1.css.map": "/PingChat/static/css/main.b260efa1.css.map",
+    "main.2f71a26a.js.map": "/PingChat/static/js/main.2f71a26a.js.map"
   },
   "entrypoints": [
     "static/css/main.b260efa1.css",
