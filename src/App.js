@@ -3,7 +3,7 @@ import MainRoot from './MainRoot';
  
 function App() {
 	return (
-		<div className="App div--fillScreenHeight debug--red">
+		<div className="App div--fillScreenHeight">
 			<AuthProvider>
 				<MainRoot/>
 			</AuthProvider>

@@ -6,10 +6,9 @@ export default function Header(){
 	const user = useAuth();
 	 
 	return(
-		<div className="div--flexSpreadHorizontal">
-			<div>
+		<div className="div--flexSpreadHorizontal div--padding">
+			<div className="div--mainLogo">
 				<span>Ping</span>
-				{user ? (<> <span>chat</span> <span>profile</span></>) : null}
 			</div>
 			 
 			<AccountBadge/>

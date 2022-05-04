@@ -2,7 +2,7 @@
 import { initializeApp } from "firebase/app";
 import {getAuth, GoogleAuthProvider, signOut, signInWithPopup} from 'firebase/auth';
 //import {getFirestore, collection, onSnapshot, query, orderBy} from 'firebase/firestore';
-import {getFirestore, collection, query, orderBy} from 'firebase/firestore';
+import {getFirestore, collection, query, orderBy, limit} from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -51,4 +51,4 @@ export function firebaseLogOut(){
 // --- export database objects
 export const db = getFirestore();
 export const chatCollection = collection(db, "ChatData");
-export const queryCall = query(chatCollection, orderBy('timeStamp'));
+export const queryCall = query(chatCollection, orderBy('timeStamp', "desc"), limit(25));

@@ -27,10 +27,7 @@ export default function Router (prop) {
 		<BrowserRouter>
 			<Routes>
 				{/*public links*/}
-				<Route path="/" element={<HomePage/>}/>
-				 
-				{/*user links*/}
-				<Route  path="/chat" element={OnlyUser(<ChatPage/>)}/>
+				<Route path="/" element={user ?  <ChatPage/> : <HomePage/>}/>
 			</Routes>
 		</BrowserRouter>
 	)

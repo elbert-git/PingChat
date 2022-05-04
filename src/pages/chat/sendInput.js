@@ -9,9 +9,9 @@ export default function SendInput(prop){
 	}
 	 
 	return(
-		<div className="div--flex">
-			<input type="text" className="div--flexGrow" ref={prop.refHook} />
-			<button onClick={prop.sendFunc}>Send</button>
+		<div className="div--flex div--chatInputParent">
+			<input type="text" placeholder="Type your message here" className="div--flexGrow div--chatInput" ref={prop.refHook} />
+			<button onClick={prop.sendFunc} className="div--sendButton">Send</button>
 		</div>
 	)
 }

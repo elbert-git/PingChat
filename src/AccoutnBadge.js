@@ -20,7 +20,7 @@ export default function AccountBadge(prop){
 	}
 	 
 	return(
-		<div className="div--AccountBadge" onClick={clicked}>
+		<div className="div--accountBadge" onClick={clicked}>
 			<img src="" />
 			<div>{user ? user.displayName : "Log In"}</div>
 		</div>
