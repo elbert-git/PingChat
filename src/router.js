@@ -24,7 +24,7 @@ export default function Router (prop) {
 	}
 	
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/PingChat/">
 			<Routes>
 				{/*public links*/}
 				<Route path="/" element={user ?  <ChatPage/> : <HomePage/>}/>
